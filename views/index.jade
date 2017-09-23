@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a('href'='http://www.muzigaiyu.cn',target='_blank') muzigaiyu
+  form(method='GET' action='')
+    |啊
+    input(name='n' type='txt')
+    button(type='submit').button 提交
+
+
